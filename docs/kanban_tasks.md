@@ -200,3 +200,7 @@ As tags são usadas para categorizar o tipo de trabalho em cada card, facilitand
 | **REVISÃO** | Um Pull Request (PR) foi aberto. Aguardando a revisão. | **Gatilho:** PR criado no GitHub. **Ação:** Card movido para "REVISÃO". |
 | **HOMOLOGAÇÃO**| O PR foi mesclado na branch `staging`/`develop`. | **Gatilho:** PR mesclado na branch `staging`. **Ação:** Card movido para "HOMOLOGAÇÃO". |
 | **CONCLUÍDO** | A funcionalidade foi validada e implantada em produção. | **Gatilho:** Código mesclado na branch `main`. **Ação:** Card movido para "CONCLUÍDO". |
+
+---
+
+[↩️ Voltar ao README Principal](../README.md)
