@@ -69,3 +69,6 @@ Projetar a tela principal de trabalho para o usuário "ONG", permitindo que ele 
 |                                           |
 +-------------------------------------------+
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
