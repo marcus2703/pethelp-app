@@ -74,3 +74,6 @@ A tela de cadastro funcionará como uma tela de pré-cadastro, cuja função pri
 │        Já tem uma conta? Entre aqui       │
 └───────────────────────────────────────────┘
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
