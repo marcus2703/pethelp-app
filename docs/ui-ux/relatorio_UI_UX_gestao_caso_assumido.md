@@ -23,7 +23,7 @@ Esta é a área centralizada onde a ONG visualiza todos os seus compromissos ati
 -   **Filtros:** Um controle no topo da lista para filtrar os casos por **Status** (Ex: "Ver todos", "Aguardando Resgate", "Em Tratamento"), ajudando a ONG a focar no que é mais urgente.
 
 #### **Esboço conceitual da tela "Meus acolhidos"**
-![Protótipo da Tela de Gestão de Caso Assumido](../../assets/prototypes/UI_UX_gestao_caso_assumido.png)
+<img src="../../assets/prototypes/UI_UX_gestao_caso_assumido.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="50%" height="auto">
 *Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
 
 <details>
