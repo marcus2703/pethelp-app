@@ -51,7 +51,7 @@ O processo de registro pode ser resumido em 3 etapas principais para o usuário:
 
 ### **Esboço conceitual da tela de registro**
 
-<img src="../../assets/prototypes/UI_UX_registro.png" alt="Protótipo da tela de Registro="auto">
+<img src="../../assets/prototypes/UI_UX_registro.png" alt="Protótipo da tela de Registro" width="50%" height="auto">
 
 *Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
 
