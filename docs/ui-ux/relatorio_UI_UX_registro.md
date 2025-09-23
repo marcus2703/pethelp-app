@@ -83,3 +83,6 @@ O processo de registro pode ser resumido em 3 etapas principais para o usuário:
 │                                           │
 └───────────────────────────────────────────┘
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
