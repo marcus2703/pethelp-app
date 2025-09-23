@@ -53,3 +53,7 @@ Este documento descreve as funcionalidades da plataforma "PetHelp" da perspectiv
 > **HU-ADM-004:** Como um administrador, eu quero ter acesso a uma fila de moderação com todos os relatos que foram sinalizados pelos usuários, para que eu possa revisar conteúdo potencialmente problemático.
 
 > **HU-ADM-005:** Como um administrador, eu quero poder "Manter" ou "Excluir" um relato sinalizado, para que eu possa garantir a integridade e o bom uso da plataforma.
+
+---
+
+[↩️ Voltar ao README Principal](../README.md)
