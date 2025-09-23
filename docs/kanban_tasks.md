@@ -168,21 +168,82 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
     * ✅ A funcionalidade foi testada e validada no ambiente de testes.
 
 ---
+### **Épico: Planejamento e Estruturação do Projeto**
+
+<br>
+
+**Card 13: Estruturação e publicação do quadro Kanban**
+* **História Relacionada:** N/A (Tarefa de Planejamento)
+* **Tags:** `Plan`
+* **Descrição:** Configurar o quadro do projeto no Trello, incluindo as colunas definidas, tags, e inserir todos os cards iniciais (de planejamento e desenvolvimento). A tarefa se conclui com a partilha do link público do quadro.
+* **Prazo Final:** 05/10/2025 - 23:59
+* **Definition of Done (DoD):**
+    * ✅ O quadro Trello está configurado e populado com todos os cards.
+    * ✅ O link público está funcional e foi partilhado com o avaliador.
+
+<br>
+
+**Card 14: Modelagem de features (Histórias de usuário e fluxogramas)**
+* **História Relacionada:** N/A (Tarefa de Documentação)
+* **Tags:** `Doc`, `Design`
+* **Descrição:** Detalhar as 3 features principais do projeto, criando as Histórias de Usuário completas e os fluxogramas de interação para cada uma, consolidando-os no documento de modelagem.
+* **Prazo Final:** 11/10/2025 - 23:59 (Sábado)
+* **Definition of Done (DoD):**
+    * ✅ O documento de modelagem contém as HUs e fluxogramas para as 3 features.
+    * ✅ Os artefatos foram revisados e aprovados pelo grupo.
+
+<br>
+
+**Card 15: Modelagem de arquitetura (Diagramas de classe, ER e componentes)**
+* **História Relacionada:** N/A (Tarefa de Documentação)
+* **Tags:** `Doc`, `DB`
+* **Descrição:** Desenvolver os diagramas técnicos para as 3 features selecionadas: Diagramas de Classe, o Diagrama de Entidade-Relacionamento (ER) do sistema, e os Diagramas de Componentes.
+* **Prazo Final:** 18/10/2025 - 23:59 (Sábado)
+* **Definition of Done (DoD):**
+    * ✅ O documento de modelagem contém todos os diagramas técnicos solicitados.
+    * ✅ Os diagramas são consistentes entre si e com os requisitos.
+
+<br>
+
+**Card 16: Criação dos protótipos visuais (Prints)**
+* **História Relacionada:** N/A (Tarefa de Design)
+* **Tags:** `Design`, `UI`
+* **Descrição:** Produzir os protótipos visuais de alta fidelidade para as 3 features principais, incluindo as imagens (prints) no documento "Protótipo do Produto" com as devidas explicações.
+* **Prazo Final:** 08/11/2025 - 23:59 (Sábado)
+* **Definition of Done (DoD):**
+    * ✅ O documento de protótipo contém os prints e as explicações para as 3 features.
+    * ✅ As imagens refletem o que foi definido nos relatórios de UI/UX.
+
+<br>
+
+**Card 17: Produção e publicação dos vídeos de apresentação**
+* **História Relacionada:** N/A (Tarefa de Apresentação)
+* **Tags:** `Pres`
+* **Descrição:** Roteirizar, gravar, editar e publicar os 2 vídeos de apresentação do projeto, garantindo a participação de todos os integrantes e que o conteúdo cubra todos os artefatos produzidos.
+* **Prazo Final:** 22/11/2025 - 23:59 (Sábado)
+* **Definition of Done (DoD):**
+    * ✅ Os dois vídeos foram produzidos e publicados.
+    * ✅ Os links de partilha estão públicos e funcionais.
+    * ✅ O conteúdo de ambos os vídeos está alinhado com o solicitado.
+
+---
 
 ## Estrutura e convenções do quadro Kanban
 
-### Definição das TAGs
-
-As tags são usadas para categorizar o tipo de trabalho em cada card, facilitando a visualização e a organização do fluxo.
+### Definição das tags
 
 | TAG | Nome Descritivo | Descrição Breve |
 | :--- | :--- | :--- |
+| `Plan` | Planejamento | Tarefas relacionadas à organização, configuração e gestão do projeto. |
+| `Doc` | Documentação | Tarefas de criação e revisão de artefatos e documentos do projeto. |
+| `Design` | Design e UX/UI | Tarefas de prototipagem visual, design de interface e experiência. |
+| `Pres` | Apresentação | Tarefas relacionadas à criação do material de apresentação final. |
 | `FE` | Frontend | Tarefas relacionadas à interface do usuário no aplicativo móvel. |
 | `BE` | Backend | Tarefas relacionadas à lógica do servidor, regras de negócio e APIs. |
 | `DB` | Banco de Dados | Tarefas que envolvem a modelagem, criação ou migração de tabelas. |
 | `API`| API | Tarefas focadas na criação ou modificação de endpoints. |
 | `UI` | User Interface | Tarefas de desenvolvimento visual e de componentes de tela. |
-| `Auth`| Autenticação | Tarefas relacionadas ao fluxo de login, cadastro e segurança de acesso. |
+| `Auth`| Autenticação | Tarefas relacionadas ao fluxo de login, cadastro e segurança. |
 | `Geo` | Geolocalização | Tarefas que envolvem lógica de dados espaciais (ex: PostGIS). |
 | `Maps`| Mapas | Tarefas relacionadas à integração e exibição de mapas na interface. |
 | `Mobile`| Mobile | Tarefas específicas do ambiente móvel (ex: acesso a hardware nativo). |
