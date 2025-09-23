@@ -1,10 +1,15 @@
-# PetHelp - Monitoramento e Apoio a Animais Abandonados
+# PetHelp - Monitoramento e Apoio a Animais Abandonados 
+<img src="assets/prototypes/logo_pethelp_app.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="10%" height="auto">
 
 ---
 
 ## Visão do produto
 
 Uma plataforma móvel e colaborativa que conecta cidadãos, ONGs e abrigos para agilizar o resgate e o cuidado de animais em situação de rua. O aplicativo permite que qualquer pessoa reporte um animal avistado, fornecendo dados essenciais para que organizações possam atuar de forma rápida e organizada.
+
+<img src="assets/prototypes/tela_pethelp_prototipo2.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
 
 ---
 

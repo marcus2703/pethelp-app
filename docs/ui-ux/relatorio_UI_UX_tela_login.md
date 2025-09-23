@@ -35,7 +35,14 @@ A tela deve ser limpa, focada и com os seguintes componentes hierarquizados:
 
 ---
 
-### **Esboço conceitual da tela de login (Wireframe)**
+### **Esboço conceitual da tela de login**
+
+<img src="../../assets/prototypes/UI_UX_tela_login.png" alt="Protótipo da tela de Login" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 +-------------------------------------------+
@@ -72,6 +79,7 @@ A tela deve ser limpa, focada и com os seguintes componentes hierarquizados:
 |    Não tem uma conta? Cadastre-se aqui    |
 +-------------------------------------------+
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)

@@ -43,7 +43,14 @@ A tela de cadastro funcionará como uma tela de pré-cadastro, cuja função pri
 
 ---
 
-### **Esboço conceitual wireframe da tela de escolha (Pré-cadastro)**
+### **Esboço conceitual da tela de escolha (Pré-cadastro)**
+
+<img src="../../assets/prototypes/UI_UX_tela_cadastro.png" alt="Protótipo da tela de Cadastro" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 ┌───────────────────────────────────────────┐
@@ -74,6 +81,7 @@ A tela de cadastro funcionará como uma tela de pré-cadastro, cuja função pri
 │        Já tem uma conta? Entre aqui       │
 └───────────────────────────────────────────┘
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)

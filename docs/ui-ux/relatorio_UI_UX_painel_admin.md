@@ -42,7 +42,12 @@ Para o MVP, o painel do administrador consiste em uma única tela: a lista de ON
 ---
 
 ### **Esboço conceitual do painel do administrador**
-Com certeza. Aqui está o snippet de código apenas com o esboço conceitual (wireframe) do painel do administrador.
+<img src="../../assets/prototypes/UI_UX_painel_admin.png" alt="Protótipo da tela de Painel Administrativo" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 +-------------------------------------------+
@@ -73,6 +78,7 @@ Com certeza. Aqui está o snippet de código apenas com o esboço conceitual (wi
 |                                           |
 +-------------------------------------------+
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)

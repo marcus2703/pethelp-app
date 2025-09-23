@@ -62,6 +62,12 @@ Esta é a nova ferramenta de trabalho no painel do Administrador.
     -   **[✖] EXCLUIR RELATO:** Remove permanentemente o relato da plataforma. Exige uma confirmação.
 
 #### **Esboço do painel de moderação do ADMIN**
+<img src="../../assets/prototypes/UI_UX_moderacao_conteudo.png" alt="Protótipo da tela de Moderação de Conteúdo" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 +-------------------------------------------+
@@ -84,6 +90,7 @@ Esta é a nova ferramenta de trabalho no painel do Administrador.
 |                                           |
 +-------------------------------------------+
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)

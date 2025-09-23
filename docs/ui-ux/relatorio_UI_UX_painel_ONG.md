@@ -46,7 +46,14 @@ Projetar a tela principal de trabalho para o usuário "ONG", permitindo que ele 
 
 ---
 
-### **Esboço conceitual (wireframe) da tela (Visão de lista)**
+### **Esboço conceitual da tela (Visão de lista)**
+
+<img src="../../assets/prototypes/UI_UX_painel_ONG.png" alt="Protótipo da tela de Visão de lista" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 +-------------------------------------------+
@@ -69,6 +76,7 @@ Projetar a tela principal de trabalho para o usuário "ONG", permitindo que ele 
 |                                           |
 +-------------------------------------------+
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)

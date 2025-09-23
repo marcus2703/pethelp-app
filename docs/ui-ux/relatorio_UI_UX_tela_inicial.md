@@ -51,8 +51,15 @@ A tela deve ser limpa, com uma hierarquia visual clara que guia o olhar do usuá
 
 ---
 
-### **Esboço conceitual da tela inicial (Wireframe)**
+### **Esboço conceitual da tela inicial**
 Com certeza. Aqui está o snippet de código apenas com o wireframe da tela inicial.
+
+<img src="../../assets/prototypes/UI_UX_tele_inicial_2.png" alt="Protótipo da tela Inicio" width="50%" height="auto">
+
+*Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
+
+<details>
+<summary>Ver wireframe em texto (versão de baixa fidelidade)</summary>
 
 ```
 +-------------------------------------------+
@@ -79,6 +86,7 @@ Com certeza. Aqui está o snippet de código apenas com o wireframe da tela inic
 |   +-----------------------------------+   |
 +-------------------------------------------+
 ```
+</details>
 ---
 
 [↩️ Voltar ao README Principal](../../README.md)
