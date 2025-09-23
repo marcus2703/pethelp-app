@@ -21,6 +21,7 @@ Uma plataforma móvel e colaborativa que conecta cidadãos, ONGs e abrigos para 
 
 - [Requisitos Funcionais e Regras de Negócio](requirements.md)
 - [Histórias de Usuário](features.md)
+- [Backlog de Tarefas (Kanban)](kanban_tasks.md)
 - [Licença do Projeto](LICENSE.md)
 
 ---
