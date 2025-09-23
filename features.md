@@ -1,6 +1,6 @@
 # Histórias de Usuário (com Codificação)
 
-Este documento descreve as funcionalidades da plataforma "Cidade Animal" da perspectiva dos usuários, utilizando o formato de histórias de usuário. Elas servem como base para a criação de tarefas de desenvolvimento.
+Este documento descreve as funcionalidades da plataforma "PetHelp" da perspectiva dos usuários, utilizando o formato de histórias de usuário. Elas servem como base para a criação de tarefas de desenvolvimento.
 
 ---
 
