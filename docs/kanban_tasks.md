@@ -10,7 +10,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 1: API para submissão de relatos**
 * **História Relacionada:** HU-CID-001, HU-CID-003
-* **Tags:** `BE`, `API`, `DB`
+* **Tags:** `BE`, `API`, `DB`, `Must Have`
 * **Descrição:** Construir e testar o endpoint `POST /api/reports` que recebe os dados de um novo relato (incluindo a imagem), valida as informações e as persiste no banco de dados, retornando uma resposta de sucesso.
 * **Checklist de Tarefas:**
     * [ ] Definir a rota e o controller para `POST /api/reports`.
@@ -26,7 +26,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 2: UI da tela de novo relato**
 * **História Relacionada:** HU-CID-003, HU-CID-004
-* **Tags:** `FE`, `UI`, `Mobile`
+* **Tags:** `FE`, `UI`, `Mobile`, `Must Have`
 * **Descrição:** Desenvolver o componente da tela "Novo Relato", permitindo que o usuário preencha o formulário, acesse a câmera e o GPS, e envie os dados para a API.
 * **Checklist de Tarefas:**
     * [ ] Estruturar o layout da tela com os campos e o botão de envio.
@@ -43,7 +43,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 3: API para autenticação e cadastro de usuários**
 * **História Relacionada:** HU-CID-002, HU-ONG-001
-* **Tags:** `BE`, `API`, `Auth`, `DB`
+* **Tags:** `BE`, `API`, `Auth`, `DB`, `Must Have`
 * **Descrição:** Implementar os endpoints `POST /api/auth/register` e `POST /api/auth/login` para o cadastro e autenticação de usuários (Cidadão e ONG), retornando um token JWT.
 * **Checklist de Tarefas:**
     * [ ] Modelar a tabela `users` com campos para perfil (role), status, etc.
@@ -59,7 +59,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 4: UI das telas de login e cadastro**
 * **História Relacionada:** HU-CID-002, HU-ONG-001
-* **Tags:** `FE`, `UI`, `Auth`
+* **Tags:** `FE`, `UI`, `Auth`, `Must Have`
 * **Descrição:** Desenvolver as telas de Login, a tela de escolha de perfil ("Cidadão" ou "ONG"), e os respectivos formulários de cadastro, integrando-os com a API de autenticação.
 * **Checklist de Tarefas:**
     * [ ] Criar a tela de Login e a tela de Pré-Cadastro.
@@ -75,7 +75,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 5: API para sinalização de relatos**
 * **História Relacionada:** HU-CID-005
-* **Tags:** `BE`, `API`
+* **Tags:** `BE`, `API``Should Have`
 * **Descrição:** Criar o endpoint `POST /api/reports/{id}/flag` que permite a um usuário autenticado sinalizar um relato, registrando o motivo e o ID do autor da sinalização.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -86,7 +86,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 6: UI para sinalização de relatos**
 * **História Relacionada:** HU-CID-005
-* **Tags:** `FE`, `UI`
+* **Tags:** `FE`, `UI`, `Should Have`
 * **Descrição:** Na tela de detalhes de um relato, implementar o botão/menu que abre um modal para o usuário selecionar o motivo da sinalização e enviar para a API.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -101,7 +101,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 7: API para visualização e filtragem de ocorrências**
 * **História Relacionada:** HU-ONG-002, HU-ONG-003
-* **Tags:** `BE`, `API`, `DB`, `Geo`
+* **Tags:** `BE`, `API`, `DB`, `Geo`, `Must Have`
 * **Descrição:** Criar o endpoint `GET /api/reports/open` para retornar uma lista paginada de relatos abertos, com suporte a filtros por tipo de animal, condição e raio de distância (geo-query).
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -112,7 +112,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 8: UI do painel de ocorrências da ONG**
 * **História Relacionada:** HU-ONG-002, HU-ONG-003
-* **Tags:** `FE`, `UI`, `Maps`
+* **Tags:** `FE`, `UI`, `Maps`, `Must Have`
 * **Descrição:** Desenvolver o painel principal da ONG, com o seletor de visão (Mapa/Lista) e os controles de filtro, exibindo os dados consumidos da API de ocorrências.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -123,7 +123,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 9: API para gestão de casos (Assumir, Liberar, Atualizar Status)**
 * **História Relacionada:** HU-ONG-004, HU-ONG-006, HU-ONG-007
-* **Tags:** `BE`, `API`
+* **Tags:** `BE`, `API`, `Must Have`
 * **Descrição:** Desenvolver os endpoints para o ciclo de vida de um caso: `POST /api/reports/{id}/assume`, `POST /api/reports/{id}/status`, `POST /api/reports/{id}/release`.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -134,7 +134,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 10: UI da gestão de casos assumidos ("Meus Acolhidos")**
 * **História Relacionada:** HU-ONG-005, HU-ONG-006
-* **Tags:** `FE`, `UI`
+* **Tags:** `FE`, `UI`, `Must Have`
 * **Descrição:** Desenvolver a tela "Meus Acolhidos" e a tela de "Detalhes do Caso Assumido", permitindo que a ONG visualize e interaja com os casos sob sua responsabilidade.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -149,7 +149,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 11: API para administração e moderação**
 * **História Relacionada:** HU-ADM-001, HU-ADM-002, HU-ADM-003, HU-ADM-004, HU-ADM-005
-* **Tags:** `BE`, `API`, `Admin`
+* **Tags:** `BE`, `API`, `Admin`, `Should Have`
 * **Descrição:** Desenvolver os endpoints restritos para administradores, incluindo a listagem de ONGs pendentes, as ações de aprovar/rejeitar, a listagem de relatos sinalizados e as ações de manter/excluir.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -160,7 +160,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 12: UI do painel do administrador**
 * **História Relacionada:** HU-ADM-001, HU-ADM-002, HU-ADM-003, HU-ADM-004, HU-ADM-005
-* **Tags:** `FE`, `UI`, `Admin`
+* **Tags:** `FE`, `UI`, `Admin`, `Should Have`
 * **Descrição:** Desenvolver a interface do painel de administração com as seções "Aprovação de ONGs" e "Moderação de Conteúdo", integrando com os respectivos endpoints da API.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
@@ -174,7 +174,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 13: Estruturação e publicação do quadro Kanban**
 * **História Relacionada:** N/A (Tarefa de Planejamento)
-* **Tags:** `Plan`
+* **Tags:** `Plan`, `Must Have`
 * **Descrição:** Configurar o quadro do projeto no Trello, incluindo as colunas definidas, tags, e inserir todos os cards iniciais (de planejamento e desenvolvimento). A tarefa se conclui com a partilha do link público do quadro.
 * **Prazo Final:** 05/10/2025 - 23:59
 * **Definition of Done (DoD):**
@@ -185,7 +185,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 14: Modelagem de features (Histórias de usuário e fluxogramas)**
 * **História Relacionada:** N/A (Tarefa de Documentação)
-* **Tags:** `Doc`, `Design`
+* **Tags:** `Doc`, `Design`, `Must Have`
 * **Descrição:** Detalhar as 3 features principais do projeto, criando as Histórias de Usuário completas e os fluxogramas de interação para cada uma, consolidando-os no documento de modelagem.
 * **Prazo Final:** 11/10/2025 - 23:59 (Sábado)
 * **Definition of Done (DoD):**
@@ -196,7 +196,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 15: Modelagem de arquitetura (Diagramas de classe, ER e componentes)**
 * **História Relacionada:** N/A (Tarefa de Documentação)
-* **Tags:** `Doc`, `DB`
+* **Tags:** `Doc`, `DB`, `Must Have`
 * **Descrição:** Desenvolver os diagramas técnicos para as 3 features selecionadas: Diagramas de Classe, o Diagrama de Entidade-Relacionamento (ER) do sistema, e os Diagramas de Componentes.
 * **Prazo Final:** 18/10/2025 - 23:59 (Sábado)
 * **Definition of Done (DoD):**
@@ -207,7 +207,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 16: Criação dos protótipos visuais (Prints)**
 * **História Relacionada:** N/A (Tarefa de Design)
-* **Tags:** `Design`, `UI`
+* **Tags:** `Design`, `UI`, `Must Have`
 * **Descrição:** Produzir os protótipos visuais de alta fidelidade para as 3 features principais, incluindo as imagens (prints) no documento "Protótipo do Produto" com as devidas explicações.
 * **Prazo Final:** 08/11/2025 - 23:59 (Sábado)
 * **Definition of Done (DoD):**
@@ -218,7 +218,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 17: Produção e publicação dos vídeos de apresentação**
 * **História Relacionada:** N/A (Tarefa de Apresentação)
-* **Tags:** `Pres`
+* **Tags:** `Pres`, `Must Have`
 * **Descrição:** Roteirizar, gravar, editar e publicar os 2 vídeos de apresentação do projeto, garantindo a participação de todos os integrantes e que o conteúdo cubra todos os artefatos produzidos.
 * **Prazo Final:** 22/11/2025 - 23:59 (Sábado)
 * **Definition of Done (DoD):**
@@ -248,6 +248,28 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 | `Maps`| Mapas | Tarefas relacionadas à integração e exibição de mapas na interface. |
 | `Mobile`| Mobile | Tarefas específicas do ambiente móvel (ex: acesso a hardware nativo). |
 | `Admin`| Administrativo | Tarefas relacionadas ao painel de administração da plataforma. |
+| `Must Have`| Essencial | Funcionalidades ou tarefas obrigatórias para o sucesso do projeto e atendimento dos requisitos mínimos. |
+| `Should Have`| Importante | Funcionalidades ou tarefas importantes que agregam valor significativo, mas não são estritamente essenciais para o MVP. |
+| `Could Have`| Desejável | Funcionalidades ou tarefas que seriam boas de ter, mas podem ser deixadas para fases futuras se o tempo ou recursos forem limitados. |
+| `Won't Have`| Não será feito (nesta fase) | Funcionalidades ou tarefas que estão fora do escopo atual do projeto. |
+
+---
+
+### Política de priorização (MoSCoW)
+
+A equipe PetHelp utilizará a técnica MoSCoW para priorizar as tarefas do backlog. Cada card será categorizado com uma das quatro etiquetas: `Must Have`, `Should Have`, `Could Have`, `Won't Have`. Dessa forma guiando a ordem de execução e as decisões sobre o escopo, especialmente em caso de restrições de tempo.
+
+Essa política, combinada com a ordenação dos cards no `SPRINT BACKLOG` (de cima para baixo), garante que a equipe sempre trabalhe nas tarefas de maior valor primeiro, mantendo o foco nos objetivos mais críticos do projeto.
+
+---
+
+### Estrutura do quadro Kanban e automações
+
+**WIP Limit (Work In Progress Limit):**
+
+Para otimizar o fluxo de trabalho e garantir o foco, a equipe PetHelp implementará os seguintes limites de WIP nas colunas:
+* **DESENVOLVIMENTO:** Máximo de **4** cartões em andamento por vez.
+* **REVISÃO:** Máximo de **3** cartões em revisão por vez.
 
 ---
 
