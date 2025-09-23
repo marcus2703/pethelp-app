@@ -2,13 +2,13 @@
 
 ---
 
-## Visão do Produto
+## Visão do produto
 
 Uma plataforma móvel e colaborativa que conecta cidadãos, ONGs e abrigos para agilizar o resgate e o cuidado de animais em situação de rua. O aplicativo permite que qualquer pessoa reporte um animal avistado, fornecendo dados essenciais para que organizações possam atuar de forma rápida e organizada.
 
 ---
 
-## Stack de Tecnologia
+## Stack de tecnologia
 
 - **Frontend (Aplicativo Móvel):** React Native
 - **Backend (API):** Node.js
@@ -17,22 +17,24 @@ Uma plataforma móvel e colaborativa que conecta cidadãos, ONGs e abrigos para 
 
 ---
 
-## Documentos do Projeto
+## Documentos do projeto
 
 - [Requisitos Funcionais e Regras de Negócio](requirements.md)
 - [Histórias de Usuário](features.md)
-- [Backlog de Tarefas (Kanban)](kanban_tasks.md)
+- [Backlog de Tarefas (Kanban)](kanban_tasks_v2.md)
 - [Licença do Projeto](LICENSE.md)
 
 ---
 
 ### Documentação de UI/UX
 
-- [Relatório UI/UX: Registro de Ocorrência](Relatorio_UI_UX_Registro.md)
-- [Relatório UI/UX: Tela Inicial e Acesso Progressivo](Relatorio_UI_UX_Tela_Inicial.md)
-- [Relatório UI/UX: Tela de Login](Relatorio_UI_UX_Tela_Login.md)
-- [Relatório UI/UX: Tela de Cadastro e Funções](Relatorio_UI_UX_Tela_Cadastro.md)
-- [Relatório UI/UX: Painel Principal da ONG](Relatorio_UI_UX_Painel_ONG.md)
-- [Relatório UI/UX: Gestão de Caso Assumido (ONG)](Relatorio_UI_UX_Gestao_Caso_Assumido.md)
-- [Relatório UI/UX: Painel do Administrador](Relatorio_UI_UX_Painel_Admin.md)
-- [Relatório UI/UX: Moderação de Conteúdo](Relatorio_UI_UX_Moderacao_Conteudo.md)
+Abaixo estão os relatórios que documentam o design e a experiência de usuário de cada tela principal do aplicativo, organizados em uma sequência lógica que acompanha a jornada do usuário.
+
+1.  **[Tela inicial e acesso progressivo](relatorio_UI_UX_tela_inicial.md):** Define a porta de entrada do aplicativo e a filosofia de acesso sem atrito.
+2.  **[Registro de ocorrência](relatorio_UI_UX_registro.md):** Detalha a funcionalidade principal de reporte de animais.
+3.  **[Tela de cadastro e funções](relatorio_UI_UX_tela_cadastro.md):** Explica o fluxo de criação de conta para os diferentes perfis.
+4.  **[Tela de login](relatorio_UI_UX_tela_login.md):** Cobre a interface de autenticação para usuários que retornam.
+5.  **[Painel principal da ONG](relatorio_UI_UX_painel_ONG.md):** Apresenta a tela de trabalho para as organizações de resgate.
+6.  **[Gestão de caso assumido (ONG)](relatorio_UI_UX_gestao_caso_assumido.md):** Detalha como uma ONG gerencia um caso específico.
+7.  **[Painel do administrador](relatorio_UI_UX_painel_admin.md):** Mostra a interface de governança da plataforma.
+8.  **[Moderação de conteúdo](relatorio_UI_UX_moderacao_conteudo.md):** Descreve o sistema de sinalização e revisão de relatos.
