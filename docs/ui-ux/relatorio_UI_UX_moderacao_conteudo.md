@@ -84,3 +84,6 @@ Esta é a nova ferramenta de trabalho no painel do Administrador.
 |                                           |
 +-------------------------------------------+
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
