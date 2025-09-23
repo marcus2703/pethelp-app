@@ -24,6 +24,7 @@ Esta é a área centralizada onde a ONG visualiza todos os seus compromissos ati
 
 #### **Esboço conceitual da tela "Meus acolhidos"**
 <img src="../../assets/prototypes/UI_UX_gestao_caso_assumido.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="50%" height="auto">
+
 *Nota: Prototipagem visual gerada por IA para fins de conceituação e alinhamento da equipe.*
 
 <details>
