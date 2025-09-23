@@ -72,3 +72,6 @@ A tela deve ser limpa, focada и com os seguintes componentes hierarquizados:
 |    Não tem uma conta? Cadastre-se aqui    |
 +-------------------------------------------+
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
