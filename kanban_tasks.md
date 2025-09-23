@@ -10,7 +10,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 1: API para submissão de relatos**
 * **História Relacionada:** HU-CID-001, HU-CID-003
-* **Tags:** `BE`, `API`
+* **Tags:** `BE`, `API`, `DB`
 * **Descrição:** Construir e testar o endpoint `POST /api/reports` que recebe os dados de um novo relato (incluindo a imagem), valida as informações e as persiste no banco de dados, retornando uma resposta de sucesso.
 * **Checklist de Tarefas:**
     * [ ] Definir a rota e o controller para `POST /api/reports`.
@@ -43,7 +43,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 3: API para autenticação e cadastro de usuários**
 * **História Relacionada:** HU-CID-002, HU-ONG-001
-* **Tags:** `BE`, `API`, `Auth`
+* **Tags:** `BE`, `API`, `Auth`, `DB`
 * **Descrição:** Implementar os endpoints `POST /api/auth/register` e `POST /api/auth/login` para o cadastro e autenticação de usuários (Cidadão e ONG), retornando um token JWT.
 * **Checklist de Tarefas:**
     * [ ] Modelar a tabela `users` com campos para perfil (role), status, etc.
