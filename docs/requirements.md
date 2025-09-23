@@ -72,3 +72,7 @@ Este documento detalha os requisitos funcionais da plataforma "PetHelp", com bas
 - **RG-024:** Um relato que atinge um número X de sinalizações é automaticamente ocultado da visão pública e movido para uma fila de moderação.
 - **RG-025:** O Admin deve ter acesso a uma "Fila de Moderação" com os relatos sinalizados.
 - **RG-026:** O Admin deve ter as ações de "Manter Relato" (revertendo a ocultação) ou "Excluir Relato".
+
+---
+
+[↩️ Voltar ao README Principal](../README.md)
