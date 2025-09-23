@@ -94,3 +94,6 @@ Esta é a tela de trabalho para um animal específico, acessada ao tocar em um c
 |                                           |
 +-------------------------------------------+
 ```
+---
+
+[↩️ Voltar ao README Principal](../../README.md)
