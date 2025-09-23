@@ -1,5 +1,4 @@
-# PetHelp - Monitoramento e Apoio a Animais Abandonados 
-<img src="assets/prototypes/logo_pethelp_app.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="10%" height="auto">
+# PetHelp - Monitoramento e Apoio a Animais Abandonados <img src="assets/prototypes/logo_pethelp_app.png" alt="Protótipo da Tela de Gestão de Caso Assumido" width="10%" height="auto">
 
 ---
 
