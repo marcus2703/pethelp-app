@@ -75,7 +75,7 @@ Este documento detalha as tarefas de desenvolvimento prontas para a equipe, alin
 
 **Card 5: API para sinalização de relatos**
 * **História Relacionada:** HU-CID-005
-* **Tags:** `BE`, `API``Should Have`
+* **Tags:** `BE`, `API`, `Should Have`
 * **Descrição:** Criar o endpoint `POST /api/reports/{id}/flag` que permite a um usuário autenticado sinalizar um relato, registrando o motivo e o ID do autor da sinalização.
 * **Definition of Done (DoD):**
     * ✅ O código foi revisado e aprovado por outro desenvolvedor.
